@@ -1,2 +1,4 @@
-package ru.yastrebov.hellojenkinsworld;public class JenkinsTest {
+package ru.yastrebov.hellojenkinsworld;
+
+public record JenkinsTest(long id, String hello) {
 }
