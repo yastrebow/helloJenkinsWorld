@@ -4,17 +4,17 @@ pipeline {
 	stages {
 		stage('Build image') {
 			steps{
-			echo 'Выполняем команды для сборки'
+			echo 'Execute build-commands'
 			}
 		}
 		stage('Testing') {
 			steps {
-				echo 'Тестируем нашу сборку'
+				echo 'Test our build'
 			}
 		}
 		stage('Deploy') {
 			steps {
-				echo 'Переносим код в рабочую среду или создаем артефакт'
+				echo 'Move code in the working environment or create artifacts'
 			}
 		}
 	}
